@@ -1,0 +1,5 @@
+Requests==2.32.3
+setuptools==75.1.0
+strawberry==3.0
+uvicorn==0.31.1
+
