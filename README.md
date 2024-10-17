@@ -38,12 +38,12 @@ pip install -r requirements.txt
 The API is structured around GraphQL queries powered by **Strawberry GraphQL**. You can run the API server locally using **uvicorn**.
 
 ### Running the API
-
+Run:
 ```
-uvicorn main:graphql_app --reload
+main.py
 ```
 
-After starting the server, you can query the GraphQL API on `http://localhost:8000/graphql`.
+After starting the server, you can query the GraphQL API on `http://0.0.0.0:8000/graphql`.
 
 ### Example Query: Retrieve Clubs Information
 
